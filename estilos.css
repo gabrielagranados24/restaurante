@@ -1,0 +1,139 @@
+body{
+    background-image: url(fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+p{
+
+    text-align: center;
+
+    font-size: 20px;
+
+    color: rgb(1, 1, 24);
+
+}
+
+h1 {
+
+    font-size: 40px;
+
+    text-align: center;
+
+}
+
+.titulos { 
+
+    color: brown;
+
+}
+
+#parrafo {
+
+    color: chocolate;
+
+}
+
+.descripcion{
+
+    font-size: 200px;
+
+}
+
+#identificador{
+
+    margin: 10 ;
+
+}
+
+#seccion1{
+
+    width: 200px;
+
+    height: 100px;
+
+    margin: 20px;
+
+    padding: 20px;
+
+    border: 1px solidcolor red;
+
+    background-color: #e1f848;
+
+    margin-top: 100px;
+
+}
+
+.etiqueta{
+    background-color: pink; height: 200px; justify-items: center;
+    justify-content: space-evenly;
+    display: grid;
+    text-align: center;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid salmon;
+}
+.contenedor{
+
+    display:flex;
+
+    justify-content: space-around;
+
+}
+
+.item{
+
+    width: 50%;
+
+    height: 200px;
+
+    background-color: lightblue;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    margin: 0 1rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: #f4f4f4;
+}
+.section {
+    padding: 3rem 2rem;
+}
+.menu {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-item {
+    width: calc(33% - 2rem);
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+footer {
+    background-color: #dfc2c2;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+}
